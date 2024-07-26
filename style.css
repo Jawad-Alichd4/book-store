@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#figure{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 140px;
+}
+ol{
+    background-color: rgb(235, 229, 154);
+    padding: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    width: 1400px;
+}
+
+li{
+    display: inline-block;
+    float: left;
+    margin-top: 12px;
+    margin-left: 20px;
+    margin-right: 350px;
+    height: 50px;
+   
+}
+li a{
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+li a:hover{
+    background-color: blue;
+    color: brown;
+}
+h1{
+    text-align: center;
+}
+/*  home  */
+.home{
+    display:flex;
+    margin-top: 150px;
+    justify-content: space-evenly;
+    margin-right: 50px;
+    
+}
+.home img{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.home input{
+    width: 250px;
+    height:50px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.home div{
+    display: block;
+    text-align: center;
+    padding-top: 140px;
+} 
+.home h3{
+    font-size: 40px;
+    font-weight: 800px;
+}
+
+section{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+section p{
+    padding-top: 30px;
+}
+/* for mobile apps */
+@media{-width: 400px;} {
+figure{
+    margin-top: -15px;
+}
+figure img{
+    width: 100px;
+}
+
+.home{
+    margin-right: 10px;
+    padding-left: 40px;
+}
+.home div{
+    padding: 70px;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.home h2{
+    font-size: 10px;
+}
+
+.home input{
+    width: 100px;
+    height: 20px;
+    margin-top: 10px;
+
+ }
+
+/* section */
+section{
+    padding-bottom: 10px;
+    padding: top 30px; 
+
+}
+section h3{
+    font-size: smaller;
+}
+section p {
+font-size: smaller;
+padding-top: 10px;
+}
+}
+.bestsellers{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+}
+.bestsellers>div{
+    position: relative;
+}
+.bestsellers h3{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.bestsellers img{
+    display: inline-block;
+    width: 300px;
+    height: 350px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 5px solid black;
+}
+.bestsellers h6{
+    position: absolute;
+    top: 250px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: rgb(10, 10, 12.5);
+    color: white;
+    height: 50px;
+    width: 95%;
+}
+.bestsellers>div>button{
+    position:absolute;
+    top: 330px;
+    width: 70px;
+    height: 50px;
+    margin-left: -200px;
+    background-color: black;
+    color: white;
+}
+.bestsellers>div>button:hover{
+    background-color: rgb(189, 223, 109);
+    color: red;
+}
+#bookshelf2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#bookcard1{
+width: 400px;
+height: 500px;
+background-color: rgb(149, 149, 218);
+border-radius: 5px;
+}
+#bookcard1>img{
+    width: 350px;
+    height: 350px;
+margin-top: 10px;
+margin-left: 24px;
+
+}
+#bookcard1>div{
+    width: 350px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-left: 24px;
+}
+#bookcard1>button{
+    width: 70px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-left: 160px;
+
+}
+#bookcard1>button:hover{
+    background-color: rgb(173, 228, 110);
+    color: red;
+}
+
+/* stylling connect div */
+#connect{
+    display: block;
+    margin-top: 100px;
+    margin: 0 auto;
+    background-color: aqua;
+    color: black;
+    justify-content: center;
+    width: 80%;
+    height: 200px;
+    border-radius: 20px;
+}
+#connect>img{
+
+display: flex;
+    width: 30px;
+    height: 30px;
+    margin: 0% auto 0% auto;
+    border-radius: 20px;
+}
+#connect>h3{
+    text-align: center;
+    padding:20px;
+    justify-content: center;
+    font-size: medium;
+    margin-top: 20px;
+}
+#connect>p{
+    text-align: center;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: bisque;
+    width: 80%;
+    border-radius: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+footer>div{
+    
+    display: block;
+}
+
+
+
+    
